@@ -1,6 +1,6 @@
 <div class="sidebar" id="id-sidebar">
 	<div class="logo">
-		<img src="<?php echo $_DOMAIN;?>static/images/logo.png">
+		<img src="">
 		<div class="text text-sidebar">Old Beautiful</div>
 	</div>
 	<div class="menu">

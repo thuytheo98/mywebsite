@@ -13,18 +13,18 @@
 <body>
 <div class="header">
 	<div class="left-header logo">
-		<a href="http:8080/mywebsitecmn/client/content/service/all_service.php"><img src="../../image/logolev.png"></a>
+		<a href="localhost/mywebsite/client/content/service/all_service.php"><img src="../../image/logolev.png"></a>
 	</div>
 	<div class="right-header navbar">
 		<ul class="menu">
 			<li class="list-menu-item">
-				<a href="http:8080/mywebsitecmn/client/content/service/all_service.php">Trang chủ</a>
+				<a href="all_service.php">Trang chủ</a>
 			</li>
 			<li class="list-menu-item">
-				<a href="#">Giới thiệu</a>
+				<a href="../contact/gioithieu.php">Giới thiệu</a>
 			</li>
 			<li class="list-menu-item">
-				<a href="http:8080/mywebsitecmn/client/content/service/choose_service.php">Dịch vụ</a>
+				<a href="choose_service.php">Dịch vụ</a>
 			</li>
 			<li class="list-menu-item">
 				<a href="#">Tin tức-Blog</a>
@@ -33,7 +33,7 @@
 				<a href="#">Tuyển Dụng</a>
 			</li>
 			<li class="list-menu-item">
-				<a href="http:8080/mywebsitecmn/client/content/service/contact.php">Liên Hệ</a>
+				<a href="../contact/contact.php">Liên Hệ</a>
 			</li>
 		</ul>
 	</div>

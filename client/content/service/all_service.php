@@ -1,5 +1,6 @@
 <?php include "../../includes/header.php" ?>
 <div class="all-service">
+	<h3 class="title">Top các dịch vụ</h3>
 	<section class="top-service">
 		<div class="service-item giatui">
 			<div class="image-item">
@@ -42,6 +43,51 @@
 			</div>
 		</div> -->
 	</section>
-	<section class=""></section>
+	<section class="instruction-service">
+		<h3>Quá trình sử dụng dịch vụ</h3>
+		<div class="main">
+			<div class="instruct-icon">
+				<div class="icon">
+					<h3 class="icon-item">1</h3>
+				</div>
+				<p>Bạn sẽ lựa chọn dịch vụ dọn dẹp và đặt lịch trực tiếp trên ứng dụng</p>
+			</div>
+			<div class="instruct-icon">
+				<div class="icon">
+					<h3 class="icon-item">2</h3>
+				</div>
+				<p>Người giúp việc sẽ chủ động nhận công việc phù hợp với khả năng</p>
+			</div>
+			<div class="instruct-icon">
+				<div class="icon">
+					<h3 class="icon-item">3</h3>
+				</div>
+				<p>Bạn và người giúp việc đánh giá lẫn nhau sau khi công việc hoàn thành</p>
+			</div>
+		</div>
+	</section>
 </div>
+<style type="text/css" media="screen">
+	.instruction-service{
+		width: 800px;
+		margin: 30px auto;
+		content: "";
+		clear: both;
+	}
+	.instruction-service .instruct-icon{
+		display: flex;
+		align-items: baseline;
+		justify-content: center;
+		margin-right: 10px;
+		display: block;
+	}
+	.instruct-icon .icon .icon-item{
+		font-weight: bold;
+		font-size: 20px;
+		color: white;
+		background-color: #ea704d;
+		border-radius: 30px;
+		width: 30px;height: 30px;
+	}
+</style>
 <?php include "../../includes/footer.php" ?>

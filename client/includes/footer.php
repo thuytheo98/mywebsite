@@ -9,6 +9,11 @@
 					<div class="detail-company">
 						<p>Công ty.........</p>
 						<p>Địa chỉ:........</p>
+						<ul class="social">
+							<li><i class="fab fa-facebook-f"></i></li>
+							<li><i class="fab fa-twitter"></i></li>
+							<li><i class="fab fa-youtube"></i></li>
+						</ul>
 					</div>
 				</div>
 			</li>
@@ -38,25 +43,6 @@
 					<ul>
 						<li><a href="#">Phương pháp</a></li>
 						<li><a href="#">Câu chuyện</a></li>
-					</ul>
-				</div>
-			</li>
-			<li>
-				<div class="element-footer ">
-					<h3>Hỗ trợ</h3>
-					<ul>
-						<li><a href="#">Điều khoản sử dụng</a></li>
-						<li><a href="#">Chính sách bảo mật</a></li>
-						<li><a href="#">Liên hệ</a></li>
-					</ul>
-				</div>
-			</li>
-			<li>
-				<div class="element-footer public">
-					<ul class="social">
-						<li><i class="fab fa-facebook-f"></i></li>
-						<li><i class="fab fa-twitter"></i></li>
-						<li><i class="fab fa-youtube"></i></li>
 					</ul>
 				</div>
 			</li>
