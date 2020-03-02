@@ -1,13 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>đăng nhập</title>
-</head>
-<body>
-	<div class="login">
+<?php
+    require_once 'core/init.php';
+    if (isset($_POST['login'])){
+        $username = $injection -> db_escape_postparam($db ->cn, "username");
+        $password = $injection -> db_escape_postparam($db ->cn, "password");
+
+        if($username == "" || $password == ""){
+            echo "vui lòng điền đầy đủ thông tin";
+        }else{
+            $sql_check_username = "SELECT user_name FROM USERS WHERE user_name = '$username'";
+            if($db ->num_rows($sql_check_username)){
+                $passmh = md5($password);
+                $sql_check_password = "SELECT user_name, user_password FROM USERS WHERE user_name = '$username' AND user_password ='$passmh'";
+                if($db->num_rows($sql_check_password)){
+                    //lưu session
+                    $session ->send($username);
+                    $db ->close();
+                    new Redirect($DOMAIN);
+                }else{
+                    echo "mk k đúng";
+                }
+            }else{
+                echo " tên đăng nhập k đúng";
+            }
+        }
+    }
+?>
+<div class="login">
 	<div class="logo-login">
-		<img src="../image/logolev.png" alt="">
+		<img src="../../image/logolev.png" alt="">
 		<span>Vcleaning</span>
 	</div>
 	<div class="title">Chào mừng đến với hệ thống quản trị</div>
@@ -15,17 +35,17 @@
 		<div class="item">
 			<div class="title-input">Tên đăng nhập:</div>
 			<div class="container-input">
-				<input type="text" class="input-custom" name="username" required>
+				<input type="text" class="input-custom" name="username" id="username" required>
 			</div>
 		</div>
 		<div class="item">
 			<div class="title-input">Mật khẩu:</div>
 			<div class="container-input">
-				<input type="password" class="input-custom" name="password" required>
+				<input type="password" class="input-custom" id="password" name="password" required>
 			</div>
 		</div>
 		<div class="btn-login">
-			<button type="submit" name="login">Đăng nhập</button>
+			<button type="submit" name="login" onclick="validateForm()">Đăng nhập</button>
 		</div>
 	</form>
 </div>
@@ -91,5 +111,3 @@
         cursor: pointer;
      }
 </style>
-</body>
-</html>

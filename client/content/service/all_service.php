@@ -73,13 +73,13 @@
 		margin: 30px auto;
 		content: "";
 		clear: both;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
 	}
 	.instruction-service .instruct-icon{
-		display: flex;
-		align-items: baseline;
-		justify-content: center;
+		float: left;
 		margin-right: 10px;
-		display: block;
 	}
 	.instruct-icon .icon .icon-item{
 		font-weight: bold;
