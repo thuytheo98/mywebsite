@@ -105,14 +105,26 @@ a{
     text-decoration: none;
     color: white;
 }
+.main-content .widget{
+    padding: 15px;
+}
+.main-content .widget a{
+    text-decoration: none;
+    color: white;
+}
 .main-content .content{
-    background: red;
+    background: #6B6C6F;
     width: 100%;
-    height: 800px;
+    min-height: 100%;
 }
 .footer{
-    background: #444248;
+    background: #4e555b;
+    color: #cbd3da;
     min-height: 10px;
     padding: 10px 15px;
     line-height: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
