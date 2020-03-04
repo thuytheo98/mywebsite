@@ -9,19 +9,23 @@
                     <a href="">Dashboard</a>
                 </li>
                 <li>
-                    <a href="<?php $DOMAIN?>">Quản lý nhân viên</a>
+                    <a href="index.php?page=list">Quản lý nhân viên</a>
+<!--                    <ol class="main-menu hide">-->
+<!--                        <li>Thêm nhân viên/tài khoản nv</li>-->
+<!--                        <li>Danh sách nhân viên</li>-->
+<!--                    </ol>-->
                 </li>
                 <li>
-                    <a href="<?php $DOMAIN?>index.php/service">Quản lý dịch vụ</a>
+                    <a href="index.php?page=service">Quản lý dịch vụ</a>
                 </li>
                 <li>
-                    <a href="<?php $DOMAIN?>index.php/add">Quản lý vật dụng</a>
+                    <a href="index.php?page=service">Quản lý vật dụng</a>
                 </li>
                 <li>
-                    <a href="<?php $DOMAIN?>index.php/add">Quản lý đánh giá</a>
+                    <a href="index.php?page=service">Quản lý đánh giá</a>
                 </li>
                 <li>
-                    <a href="<?php $DOMAIN?>index.php/add">Quản lý báo cáo</a>
+                    <a href="index.php?page=service">Quản lý báo cáo</a>
                 </li>
             </ul>
             <div class="widget">
