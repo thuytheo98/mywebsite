@@ -1,32 +1,28 @@
 <?php
-    class Employee{
-        private $manv,$name,$gender,$indentification,$phone,$address,$role;
 
-        public function __destruct()
+
+
+
+    class Employee implements CRUD{
+
+        public function create()
         {
-            // TODO: Implement __destruct() method.
+            // TODO: Implement create() method.
+
         }
 
-
-        /**
-         * Employee constructor.
-         * @param $manv
-         * @param $name
-         * @param $gender
-         * @param $indentification
-         * @param $phone
-         * @param $address
-         * @param $role
-         */
-        public function __construct($manv, $name, $gender, $indentification, $phone, $address, $role)
+        public function update()
         {
-            $this->manv = $manv;
-            $this->name = $name;
-            $this->gender = $gender;
-            $this->indentification = $indentification;
-            $this->phone = $phone;
-            $this->address = $address;
-            $this->role = $role;
+            // TODO: Implement update() method.
         }
 
+        public function delete()
+        {
+            // TODO: Implement delete() method.
+        }
+
+        public function select()
+        {
+            // TODO: Implement select() method.
+        }
     }

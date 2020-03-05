@@ -9,7 +9,7 @@
                     <a href="">Dashboard</a>
                 </li>
                 <li>
-                    <a href="index.php?page=list">Quản lý nhân viên</a>
+                    <a href="index.php?page=employee">Quản lý nhân viên</a>
 <!--                    <ol class="main-menu hide">-->
 <!--                        <li>Thêm nhân viên/tài khoản nv</li>-->
 <!--                        <li>Danh sách nhân viên</li>-->
@@ -22,10 +22,22 @@
                     <a href="index.php?page=service">Quản lý vật dụng</a>
                 </li>
                 <li>
-                    <a href="index.php?page=service">Quản lý đánh giá</a>
+                    <a href="index.php?page=service">Quản lý vật dụng</a>
                 </li>
                 <li>
-                    <a href="index.php?page=service">Quản lý báo cáo</a>
+                    <a href="index.php?page=service">Quản lý vật dụng</a>
+                </li>
+                <li>
+                    <a href="index.php?page=service">Quản lý vật dụng</a>
+                </li>
+                <li>
+                    <a href="index.php?page=service">Quản lý vật dụng</a>
+                </li>
+                <li>
+                    <a href="index.php?page=service">Quản lý vật dụng</a>
+                </li>
+                <li>
+                    <a href="index.php?page=service">Quản lý vật dụng</a>
                 </li>
             </ul>
             <div class="widget">

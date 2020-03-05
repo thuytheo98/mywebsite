@@ -1,3 +1,18 @@
+<?php
+if(isset($_POST['createprofile'])){
+    $name  = $_POST['name'];
+    $role  = $_POST['role'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $birth = $_POST['birth'];
+    $address = $_POST['address'];
+    $gender = $_POST['gender'];
+    $iden = $_POST['identification'];
+    $emp_id = $_POST['emp_id'];
+    $sql_insert_emp = "INSERT INTO `employee` (`emp_id`, `emp_name`, `emp_email`, `emp_phone`, `emp_gender`, `emp_birthday`, `emp_address`, `emp_identification`, `emp_role`) VALUES (NULL, '$name', '$email', '$phone', '$gender', '$birth', '$address', '$iden', '$role');";
+    $db ->query($sql_insert_emp);
+}
+?>
 <button class="btn-return">
     <a href="">Quay lại</a>
 </button>
@@ -54,39 +69,31 @@
         </div>
     </div>
 </div>
-<?php
-    if(isset($_POST['createprofile'])){
-        $name  = $_POST['name'];
-        $role  = $_POST['role'];
-        $email = $_POST['email'];
-        $phone = $_POST['phone'];
-        $birth = $_POST['birth'];
-        $address = $_POST['address'];
-        $gender = $_POST['gender'];
-        $iden = $_POST['identification'];
-        $emp_id = $_POST['emp_id'];
-        $sql_insert_emp = "INSERT INTO `employee` (`emp_id`, `emp_name`, `emp_email`, `emp_phone`, `emp_gender`, `emp_birthday`, `emp_address`, `emp_identification`, `emp_role`) VALUES (NULL, '$name', '$email', '$phone', '$gender', '$birth', '$address', '$iden', '$role');";
-        $db ->query($sql_insert_emp);
-    }
-?>
 <style type="text/css">
     .add-account{
-        margin: 20px;
+        margin: 50px;
     }
     .add-account .action-bar .float-left{
         font-family: SansSerif;
         font-size: 16px;
         font-weight: 500;
         text-align: center;
-    }s
+    }
     .add-account .form{
-        border: 1px solid #6B6C6F;
         width: 400px;
     }
     .add-account .form .item{
+        padding: 10px;
 
     }
     .add-account .form .item .title{
+        font-size: 16px;
 
+    }
+    .add-account .form .item .text-item{
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #6B6C6F;
     }
 </style>

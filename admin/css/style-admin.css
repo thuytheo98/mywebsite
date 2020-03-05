@@ -15,12 +15,12 @@ div{
 }
 button{
     cursor: pointer;
-    background-color: #ECC74E;
-    border: 1px solid #FBFBFD;
-    height: 40px;
-    border-radius: 7px;
-    font-size: 14px;
-    font-weight: 500;
+    /*background-color: #ECC74E;*/
+    /*border: 1px solid #FBFBFD;*/
+    /*height: 40px;*/
+    /*border-radius: 7px;*/
+    /*font-size: 14px;*/
+    /*font-weight: 500;*/
 }
 button:hover{
     transform: scale(1.00);
@@ -79,7 +79,7 @@ a{
     display: flex;
     width: 230px;
     min-height: 100%;
-    background-color: #444248;
+    background-color: #333;
     color: white;
     flex-direction: column;
 }
@@ -113,9 +113,9 @@ a{
     color: white;
 }
 .main-content .content{
-    background: #6B6C6F;
+    background: white;
     width: 100%;
-    min-height: 100%;
+    min-height: 900px;
 }
 .footer{
     background: #4e555b;
@@ -123,8 +123,4 @@ a{
     min-height: 10px;
     padding: 10px 15px;
     line-height: 10px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
 }

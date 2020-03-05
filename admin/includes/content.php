@@ -1,7 +1,7 @@
 <?php
 	if(isset($_GET['page']) && !isset($_GET['crud'])){
 	    $page = $_GET['page'];
-	    include ("content/employee/$page.php");
+	    include ("content/$page/$page.php");
     }
 	if(isset($_GET['page'])){
 	    if(isset($_GET['crud'])&&  !isset($_GET['id'])){

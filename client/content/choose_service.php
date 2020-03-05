@@ -5,7 +5,7 @@
 		<div class="choose-item item-giatui">
 			<div class="icon-circle">
 				<i class="fas fa-air-conditioner"></i>
-				<h5>vệ sinh máy</h5>
+				<h5>Vệ sinh máy</h5>
 			</div>
 			
 		</div>

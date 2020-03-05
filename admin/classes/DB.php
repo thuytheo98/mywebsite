@@ -1,4 +1,5 @@
 <?php
+
 class DB
 {
     // Các biến thông tin kết nối
