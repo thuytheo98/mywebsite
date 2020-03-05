@@ -5,107 +5,86 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="<?php $DOMAIN?>bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php $DOMAIN?>bootstrap/fonts/all.css">
+    <link rel="stylesheet" href="<?php $DOMAIN?>bootstrap/js/bootstrap.js">
 </head>
+<body>
+<?php //include "admin/core/init.php" ?>
+<?php include "includes/header.php" ?>
+<?php //include "includes/footer.php" ?>
 <style type="text/css">
     html {
-        background: url('image/images.jpg') no-repeat center center fixed;
+        background: url('image/download.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
     }
-    header{
-        width: 100%;
-        margin: 0 auto;
-        padding: 10px 40px;
-        overflow: auto;
-        border-bottom: 1px solid #a6a6a1;
-    }
-    .left-header .logo{
-        font-size: 50pt;
-    }
-    .right-header .navbar{
+    .header .right-header{
         margin: 15px 0;
     }
-    .right-header .navbar .menu{
-        list-style-type: none;
+    .header .right-header .logo img{
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .right-header .menu{
+        list-style: none;
         margin: 0;
         padding: 0;
-        float: right;
-        font-size: 18pt;
-    }
-    ul{
-        margin: 0;
-    }
-    .menu li{
-        display: inline;
-        margin-right: 30px;
-        margin-top: 10px;
-        border: 1px solid #0b2e13;
-        background-color: #155724;
-        color: #a6a6a1;
-        border-radius: 5px;
-        height: 30px;
-        width: 40px;
-    }
-    .menu li a{
-        text-decoration: none;
-        color: #000;
-        padding: 10px 10px;
-        margin: 0;
-        font-size: 20px;
-        font-weight: 500;
-    }
-    .menu li a:hover{
-        color: #ea704d;
-    }
-    footer{
-        width: 100%;
-        height: 300px;
-        background-color: #454543;
-        margin: 30px auto;
-        padding: 20px;
-        color: #ea704d;
-        width: 100%;
-        border-bottom: 1px solid #474745;
-        content: "";
-        clear: both;
-    }
-    footer .top-footer{
-        list-style-type: none;
-    }
-    footer .top-footer .element-footer{
         float: left;
-        margin-right: 100px;
-        display: block;
-        box-sizing: border-box;
+        font-size: 15pt;
     }
-    footer .top-footer ul{
-        list-style-type: none;
+    .right-header .menu li{
+        float: left;
+        margin: 0 20px;
+        border: 1px solid #1b1e21;
+        background-color: #ed969e;
+        border-radius: 8px;
+        height: 40px;
     }
-    footer .top-footer li{
-        margin: 10px;
-        box-sizing: border-box;
-    }
-    footer .top-footer li a{
+    .right-header .menu li a{
         text-decoration: none;
-        color: #ECC74E;
-        font-size: 15px;
+        display: flex;
+        align-content: center;
+        color: black;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-family: SansSerif;
     }
-    footer .top-footer .public{
-
+    .right-header .menu li a:hover{
+        color: #e4606d;
+        background-color: white;
+        border-radius: 8px;
     }
-    footer .bottom-footer{
-        background-color: #000;
-        color: #ECC74E;
-        text-align: center;
+    .left-header{
+        float: right;
+        margin-right: 10px;
     }
-
+    .left-header ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .left-header ul .ngaongo{
+        color: #ed969e;
+    }
+    .left-header ul li{
+        float: right;
+        margin-right: 30px;
+    }
+    .left-header ul li a{
+        text-decoration: none;
+        color: #ed969e;
+        display: flex;
+        align-content: center;
+        margin-bottom: 10px;
+    }
 </style>
-<body>
-<?php include "includes/header.php" ?>
-<?php //include "includes/footer.php" ?>
+
 </body>
 </html>
 

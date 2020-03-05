@@ -51,7 +51,7 @@
 </div>
 <style type="text/css">
 	.login{
-		background-color: #ECC74E;
+		background-color: #e4606d;
 		width: 400px;
 		height: 200px;
 		top: 0;
