@@ -1,5 +1,7 @@
-<?php include "../../includes/header.php" ?>
-<div class="contact">
+
+<?php include "../includes/header.php" ?>
+
+    <div class="contact">
 	<div class="information">
 		<h2 class="no-margin-top">Welcome!</h2> 
 		 <p>Company is a technology company specialising in tech reviews.</p> 
@@ -16,8 +18,8 @@
 <style type="text/css">
 	.contact{
 		margin: 30px;
-		padding: 50px;
-		background-color: 
+		padding: 70px;
+        color: white;
 	}
 	.information{
 		width: 40%;
@@ -30,5 +32,12 @@
 		box-sizing: border-box;
 		padding-left: 40px;
 	}
+    html {
+        background: url('../image/lapphuong.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 </style>
-<?php include "../../includes/footer.php" ?>
+<?php //include "../../includes/footer.php" ?>

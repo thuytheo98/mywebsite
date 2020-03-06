@@ -1,4 +1,4 @@
-<?php include "../../includes/header.php" ?>
+<?php include "../includes/header.php" ?>
 <div class="gioithieu">
 	<div class="title">
 		<h3>Giới thiệu về Vcleaning</h3>
@@ -18,8 +18,10 @@
 <style type="text/css" media="screen">
 	.gioithieu{
 		text-align: justify;
-		margin:30px auto;
+		margin: 80px auto;
+        padding: 40px 0;
 		width: 800px;
+        clear: both;
 	}
 	h3{
 		font-weight: 600;
@@ -29,5 +31,12 @@
 	.nghieng{
 		font-style: italic;
 	}
+    html {
+        background: url('../image/killhong.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 </style>
-<?php include "../../includes/footer.php" ?>
+<?php //include "../../includes/footer.php" ?>
